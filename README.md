@@ -32,3 +32,6 @@ Tests out of scope of this demonstration (but that I would execute in real life)
 
 I would write acceptance criterias to prove that the user can use the navigation on the page under test, that the page works on different browsers and screen resolutions as well as supporting the load it is intended to have. 
 
+Page object model:
+this code is designed to use a page object model so that other tests can be implemented and each page is a class that has its unique characteristics and that deals with its "responsabilities". Doing that I try to reduce code smell.
+
